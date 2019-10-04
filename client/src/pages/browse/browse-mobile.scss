@@ -1,0 +1,14 @@
+@media only screen and (max-width: 768px) {
+  .page-wrap-browse{
+    .filter-results-wrap{
+      flex-direction: column;
+    }
+    .filter-results-wrap select, .filter-results-wrap .search-bar-wrap{
+      width: 100%;
+    }
+    .filter-results-wrap select{
+      font-size: 1.25em;
+      height: 2em;
+    }
+  }
+}

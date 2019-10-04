@@ -1,0 +1,49 @@
+@import "variables.scss";
+@import url('https://fonts.googleapis.com/css?family=Alef:400,700|Assistant|Cabin|Cairo|Rubik&display=swap');
+body {
+  margin: 0;
+  font-family: Cabin, Cairo, Rubik, sans-serif !important;
+}
+input, textarea, select, button {
+  font-family: Cabin, Cairo, Rubik, sans-serif !important;
+}
+::selection {
+  background: $purple-main;
+  color: white;
+}
+button{
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  border: none;
+  background: transparent;
+  cursor: pointer;
+}
+::-webkit-scrollbar {
+  width: 3px;
+  height: 3px;
+}
+::-webkit-scrollbar-button {
+  width: 0;
+  height: 0;
+}
+::-webkit-scrollbar-thumb {
+  background: $purple-main;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: $purple-dark;
+}
+::-webkit-scrollbar-thumb:active {
+  background: $purple-darker;
+}
+::-webkit-scrollbar-track {
+  background: #ec8;
+}
+::-webkit-scrollbar-track:hover {
+  background: #da5;
+}
+::-webkit-scrollbar-track:active {
+  background: #c80;
+}
+::-webkit-scrollbar-corner {
+  background: transparent;
+}
